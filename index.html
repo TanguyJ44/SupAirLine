@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sup Air Line</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/8f1a6fce20.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+
+        <div class="header-bar">
+            <img src="res/logo.png" style="margin-left: 10px;">
+            <div class="header-bar-link">
+                <p><a href="#">Accueil</a>
+                    <a href="#">Rechercher un vol</a>
+                    <a href="#">Nos appareils</a>
+                    <a href="#">Nous contacter</a>
+                    <a href="#">Mon compte</a></p>
+            </div>
+            
+        </div>
+
+    </header>
+
+    <main>
+        
+        <div class="main-search">
+            <div class="main-search-title">
+                <h1 class="main-search-title-txt">Rechercher un vol</h1>
+            </div>
+
+            <div class="fly-type">
+                <div class="fly-type-single">
+                    <p class="fly-type-p" id="fly-single">Aller Simple</p>
+                </div>
+                <div class="fly-type-back">
+                    <p class="fly-type-p" id="fly-back">Aller-Retour</p>
+                </div>
+            </div>
+
+            <div class="to-from-to">
+                <div class="to-from-to-div">
+                    <span style="margin-left: 25px; color: gray;">Au départ de</span><br>
+                    <i class="fa fa-map-marker" aria-hidden="true" id="to-from-icon"></i><input type="text" class="to-from-input" id="city-from">
+                </div>
+                <i class="fa fa-plane" aria-hidden="true" id="middle-plane"></i>
+                <div class="to-from-from-div">
+                    <span style="margin-left: 25px; color: gray;">Arrivée à</span><br>
+                    <i class="fa fa-map-marker" aria-hidden="true" id="to-from-icon"></i><input type="text" class="to-from-input" id="city-to">
+                </div>
+            </div>
+
+            <div class="date-number">
+                <div class="date-number-start-div">
+                    <span style="margin-left: 25px; color: gray;">Date de départ</span><br>
+                    <i class="fa fa-calendar" aria-hidden="true" id="date-number-icon"></i><input type="date" class="date-number-input" id="start-date">
+                </div>
+                <div class="date-number-back-div">
+                    <span style="margin-left: 25px; color: gray;">Date de retour</span><br>
+                    <i class="fa fa-calendar" aria-hidden="true" id="date-number-icon"></i><input type="date" class="date-number-input" id="back-ctrl">
+                </div>
+                <div class="date-number-pers-div">
+                    <span style="margin-left: 25px; color: gray;">Nombre de personnes</span><br>
+                    <i class="fa fa-user" aria-hidden="true" id="date-number-icon"></i><input type="number" class="date-number-input" id="pers-num">
+                </div>
+            </div>
+
+            <div class="search-button">
+                <p class="search-button-txt">Rechercher</p>
+            </div>
+
+        </div>
+
+
+        <div class="results">
+            <!-- Auto generate by Php -->
+            <!-- Do not manually complet -->
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-div">
+            <img src="res/logo.png" style="margin-top: 20px;margin-left: 10px;">
+            <p class="footer-copy">&copy; Sup Air Line 2020 - Tout droit réservé</p>
+        </div>
+    </footer>
+
+</body>
+</html>
